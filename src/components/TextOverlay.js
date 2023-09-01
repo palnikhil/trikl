@@ -10,7 +10,7 @@ function TextOverlay({ text, position, onDrag}) {
       defaultPosition={{ x:  '50%', y: '50%' }}
     >
         <div className="text-overlay">
-          <div className="handle">
+          <div contentEditable={true} className="handle">
             {text}
           </div>
         </div>
